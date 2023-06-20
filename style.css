@@ -1,28 +1,112 @@
+/*Formatações*/
+* {
+    margin: 0;
+    padding: 0;
+}
 body {
+    font-size: 1em;
     background-color: rgb(228, 228, 228);
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Trebuchet MS', Helvetica, sans-serif;
 }
 a {
+    color: rgb(255, 198, 93);
     text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
 }
 #container {
     width: 100%;
 }
+/*header*/
 #navbar {
     background-color: rgb(255, 198, 93);
     text-align: center;
-    padding: 20px;
+    padding: 15px;
 }
 #navbar h1 {
-    font-size: 50px;
+    color: #4e4e4e;
+    font-size: 2.5em;
+    padding: 10px;
+}
+.branco {
+    color: white;
 }
 #navbar a {
     font-size: 20px;
     color: white;
     font-weight: 800;
-    padding: 20px;
+    padding: 10px;
+    
+}
+#navbar a:visited, #navbar a:link {
+    padding: 8px 12px;
+    color: white;
 }
 #navbar a:hover {
     background-color: white;
     color: rgb(255, 198, 93);
+    text-decoration: none;
+}
+#main {
+    width: 920px;
+    margin: 0 auto;
+    padding: 15px;
+}
+/*Area principal*/
+#main #main-area {
+    
+    width: 660px;
+    float: left;
+}
+#main #main-area h2{
+    color: rgb(255, 198, 93);
+}
+#main #main-area .postagens {
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: white;
+}
+#main #main-area .postagens .data-postagem {
+    display: block;
+    font-size: 0.8em;
+    border-bottom: 1px solid #CCC;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+#main #main-area a {
+    font-weight: 700;
+}
+/*Area Lateral*/
+#main #lateral-area {
+    width: 240px;
+    float: right;
+}
+#main #lateral-area .postagens-laterais{
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color: white;
+}
+#main #lateral-area {
+    font-size: 0.8em;
+}
+#main #lateral-area a, p, h3{
+    padding: 5px;
+}
+#main #lateral-area h3 {
+    font-size: 1.45em;
+    color: gray;
+    background-color: #dacccc;
+}
+#main #lateral-area a {
+    font-weight: 700;
+}
+#main #lateral-area .postagens-laterais #links a {
+    display: block;
+    margin-bottom: -18px;
+}
+/*Footer*/
+#footer {
+    clear: both;
+    text-align: center;
 }
