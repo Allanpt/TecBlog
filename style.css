@@ -17,12 +17,14 @@ a:hover {
 }
 #container {
     width: 100%;
+    min-width: 1014px;
 }
 /*header*/
 #navbar {
     background-color: rgb(255, 198, 93);
     text-align: center;
     padding: 15px;
+
 }
 #navbar h1 {
     color: #4e4e4e;
