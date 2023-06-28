@@ -18,12 +18,12 @@ Modelo de site utilizando algumas ferramentas básicas do CSS  <br/>
 <br>
 
 <p align="center">
-  <img alt="projeto Anna Bela" src=".github/2023-06-20.png" width="100%">
+  <img alt="projeto TecBlog" src=".github/2023-06-20.png" width="100%">
 </p>
 
 ## :rocket: Tecnologia
 
-Esse projeto foi desenvolvido com a seguinte tecnologia:
+Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 - HTML
 - CSS
